@@ -41,6 +41,13 @@ const RenderList = () => {
           ))}
         </ul>
       </div>
+      <h2 className="subtitle">Previous State</h2>
+      <ul>
+        <li><strong>Previous state</strong> é um recurso do hook useState;</li>
+        <li>Podemos pegar o <strong>valor original dos dados</strong>, e fazer alguma alteração;</li>
+        <li>Muito utilizado em listas, pois pegamos o valor antigo e o modificamos;</li>
+        <li><strong>O primeiro arumento do set</strong> é sempre o previous state;</li>
+      </ul>
     </div>
   )
 }
