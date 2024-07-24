@@ -2,6 +2,7 @@ import { useState } from 'react';
 // import components  
 import ImageUse from './components/ImageUse';
 import Hooks from './components/Hooks';
+import RenderList from './components/RenderList';
 // importanto imagem
 
 // import styles
@@ -16,6 +17,7 @@ function App() {
     <h1 className='title'>Avançando no React</h1>
       <ImageUse />
       <Hooks />
+      <RenderList />
     </>
   )
 }
