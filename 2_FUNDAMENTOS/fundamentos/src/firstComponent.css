@@ -1,0 +1,60 @@
+ul {
+    text-align: start;
+}
+
+ul strong {
+    color: #5BC3FB;
+}
+
+.subtitle {
+    color: #5e5e5e;
+    background-color: #5BC3FB;
+    width: 85%;
+    margin: 5px auto;
+    padding: 7px;
+    padding-inline: 15px;
+    border-radius: 50px;
+    transition: .4s ease-in-out;
+}
+
+.subtitle:hover {
+    background-color: #525252;
+    color: white;
+    cursor: default;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.438);
+}
+
+.title {
+  color: #5BC3FB;
+  text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.300);
+  text-decoration: underline;
+}
+
+.exemplo {
+    background-color: #5bfbb0;
+    border-radius: 18px;
+    padding: 4px;
+    margin-bottom: 25px;
+    color: #525252;
+}
+
+.recicled {
+    background-color: rgb(168, 168, 168);
+    width: 70%;
+    margin: 15px auto;
+    border-radius: 15px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.content {
+    background-color: #5e5e5e;
+    width: 85%;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 18px;
+    color: white;
+}
+
+.exemplo button {
+    margin-bottom: 15px;
+}
