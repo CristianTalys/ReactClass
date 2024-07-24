@@ -1,8 +1,7 @@
 #root {
   background-color: #282A36;
-  width:100%;
+  width:100vw;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
