@@ -13,7 +13,6 @@
 
 .subtitle {
     background-color: #5AC1F9;
-    color: #5e5e5e;
     border-radius: 90px;
     width: 85%;
     margin: 5px auto;
@@ -25,4 +24,31 @@
     background-color: #4b4b4b;
     color: white;
     cursor: default;
+}
+
+.content ul {
+    text-align: start;
+    max-width: 1028px;
+    width: max-content;
+    margin: 15px auto;
+}
+
+li strong {
+    color: #5AC1F9;
+}
+
+.exemplo {
+    background-color: #5af9b7;
+    width: 75%;
+    margin: 15px auto;
+    border-radius: 15px;
+
+}
+
+.exemplo h3 {
+    padding-top: 5px;
+}
+
+.retrato {
+    width: 80px;
 }
