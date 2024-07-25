@@ -3,6 +3,7 @@ import { useState } from 'react';
 import ImageUse from './components/ImageUse';
 import Hooks from './components/Hooks';
 import RenderList from './components/RenderList';
+import CondicionalRender from './components/CondicionalRender';
 // importanto imagem
 
 // import styles
@@ -18,6 +19,7 @@ function App() {
       <ImageUse />
       <Hooks />
       <RenderList />
+      <CondicionalRender />
     </>
   )
 }
