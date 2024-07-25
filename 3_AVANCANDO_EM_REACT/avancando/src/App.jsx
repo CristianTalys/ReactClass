@@ -4,6 +4,7 @@ import ImageUse from './components/ImageUse';
 import Hooks from './components/Hooks';
 import RenderList from './components/RenderList';
 import CondicionalRender from './components/CondicionalRender';
+import Props from './components/Props';
 // importanto imagem
 
 // import styles
@@ -20,6 +21,7 @@ function App() {
       <Hooks />
       <RenderList />
       <CondicionalRender />
+      <Props name="Cristian" brand="Toyota" km={1300} color="Verde"/>
     </>
   )
 }
