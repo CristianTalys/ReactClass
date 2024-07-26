@@ -22,7 +22,7 @@ function App() {
   const [count, setCount] = useState(0)
   function showMessage() {
     console.log('Funcionando');
-  } 
+  }; 
 
   // state lift
   const [message, setMessage] = useState ("");
@@ -41,7 +41,7 @@ function App() {
       <LoopComponent />
       <ChildrenProp />
       <PorpFunction myFunction={showMessage}/>
-      <StateLift msg={message}/>
+      <StateLift msg={message}> </StateLift>
       <ChangeMessage handleMessage={handleMessage}/>
     </>
   )

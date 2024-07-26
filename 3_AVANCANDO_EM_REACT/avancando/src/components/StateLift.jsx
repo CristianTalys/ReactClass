@@ -1,4 +1,4 @@
-const StateLift = () => {
+const StateLift = ({msg}) => {
   return (
     <div className="content">
       <h2 className="subtitle">Elevação de state</h2>
@@ -9,7 +9,7 @@ const StateLift = () => {
       </ul>
       <div className="exemplo">
         <h3>Exemplo:</h3>
-        <p>A mensagem é:</p>
+        <p>A mensagem é: {msg}</p>
       </div>
     </div>
   )
