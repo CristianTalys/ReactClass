@@ -5,6 +5,7 @@ import Hooks from './components/Hooks';
 import RenderList from './components/RenderList';
 import CondicionalRender from './components/CondicionalRender';
 import Props from './components/Props';
+import ComponentReciled from './components/ComponentReciled';
 // importanto imagem
 
 // import styles
@@ -22,6 +23,7 @@ function App() {
       <RenderList />
       <CondicionalRender />
       <Props name="Cristian" brand="Toyota" km={1300} color="Verde"/>
+      <ComponentReciled />
     </>
   )
 }
