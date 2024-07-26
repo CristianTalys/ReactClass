@@ -6,11 +6,14 @@ import RenderList from './components/RenderList';
 import CondicionalRender from './components/CondicionalRender';
 import Props from './components/Props';
 import ComponentReciled from './components/ComponentReciled';
+import LoopComponent from './components/LoopComponent';
+import Container from './components/ChildrenProp';
 // importanto imagem
 
 // import styles
 import './App.css'
 import './style.css'
+import ChildrenProp from './components/ChildrenProp';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,6 +27,8 @@ function App() {
       <CondicionalRender />
       <Props name="Cristian" brand="Toyota" km={1300} color="Verde"/>
       <ComponentReciled />
+      <LoopComponent />
+      <ChildrenProp />
     </>
   )
 }
