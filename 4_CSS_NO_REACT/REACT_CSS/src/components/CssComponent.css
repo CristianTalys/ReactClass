@@ -1,0 +1,5 @@
+#trocaStyle:hover {
+    background-color: rgb(0, 48, 71);
+    cursor: pointer;
+    box-shadow: 0px 0px 16px rgba(50, 204, 50, 0.616);
+}
