@@ -16,6 +16,7 @@ const LabelInput = () => {
             <span>E-mail:</span>
             <input type="email" name="email" placeholder="Digite seu e-mail"/>
           </label>
+          <input type="submit" value="Enviar"></input>
         </form>
     </div>
   )
