@@ -1,7 +1,4 @@
-.content {
-    background-color: rgb(20, 66, 20);
-}
-
-.caixaTeste {
-    background-color: rgb(0, 0, 65);
+.myClass {
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgb(0, 82, 0);
 }
