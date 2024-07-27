@@ -7,6 +7,7 @@ import CssComponent from './components/CssComponent'
 import InlienStyle from './components/InlienStyle'
 import DinamicInlineCSS from './components/DinamicInlineCSS'
 import DinamicClasses from './components/DinamicClasses'
+import CssModue from './components/CssModue'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
       <InlienStyle />
       <DinamicInlineCSS />
       <DinamicClasses />
+      <CssModue />
     </>
   )
 }

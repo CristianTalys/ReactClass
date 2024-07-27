@@ -60,3 +60,21 @@ ul li strong {
   border-radius: 25px;
   transition: .3s;
 }
+
+/* inserção de classes dinamicas */
+
+#caixa {
+  width: 150px;
+  height: 150px;
+  border: 2px solid white;
+  border-radius: 25px;
+  margin: 15px auto;
+}
+
+.backRed {
+  background-color: rgb(53, 0, 0);
+}
+
+.backBlue {
+  background-color: #3e456d;
+}
