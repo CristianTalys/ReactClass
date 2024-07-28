@@ -14,7 +14,7 @@ const Formularios = () => {
           <label htmlFor="name">Nome:</label>
           <input type="text" name="name" />
         </div>
-        <input type="submit" value="Enviar" />
+        <input type="submit" value="Enviar" disabled/>
       </form>
     </div>
   )

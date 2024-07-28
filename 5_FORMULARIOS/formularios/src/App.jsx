@@ -4,6 +4,7 @@ import './App.css'
 import Formularios from './components/Formularios'
 import LabelInput from './components/LabelInput'
 import ManipularValores from './components/ManipularValores'
+import SendForm from './components/SendForm'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Formularios />
       <LabelInput />
       <ManipularValores />
+      <SendForm />
     </>
   )
 }
