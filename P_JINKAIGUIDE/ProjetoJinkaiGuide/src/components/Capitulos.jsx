@@ -26,9 +26,11 @@ const Capitulos = () => {
                   <a href="#chap1-1">1.1 - Hunter's Wood</a>
                 </li>
                 <li>
-                  <a href="#chap1-2">1.2 - Nohl</a>
+                  <a href="#boss1">1.2 - Gather Crab</a>
                 </li>
-
+                <li>
+                  <a href="#chap1-2">1.3 - Nohl</a>
+                </li>
               </ul>
             </li>
           </ul>
@@ -106,7 +108,44 @@ const Capitulos = () => {
               </table>
             </div>
             <p>
-              Logo ao entrar, <span className="char Galvan">Galvan</span> dá as priemiras instruções para <span className="char Lang">lang</span>. Dein caçoa de <span className="char Lang">lang</span>, dizendo que o heroi é novato e que não dará conta da missão. Responda o que quiser, pois, de qualquer forma, ele levará uma dura. Ao retomar o controle siga para o Sul, cruzando pelo rio, até encontrar a primeira batalha. Como é nossa primeira luta, <span className="char Galvan">Galvan</span>
+              Logo ao entrar, <span className="char Galvan">Galvan</span> dá as priemiras instruções para <span className="char Lang">lang</span>. <span className="char">Dein</span> caçoa de <span className="char Lang">lang</span>, dizendo que o heroi é novato e que não dará conta da missão. Responda o que quiser, pois, de qualquer forma, ele levará uma dura. Ao retomar o controle siga para o Sul, cruzando pelo rio, até encontrar a primeira batalha. Como é nossa primeira luta, <span className="char Galvan">Galvan</span> dará os comandos. Repare que ao final da batalha, <span className="char Lang">lang</span> passará de nível e poredá desferir até 3 ataques por turno. Continue para o Sul até entrar na segunda batalha. Agora aprenderemos nossa primeira Art. Depois de aprender a primeira Art, no segundo turno, coloque os comandos:
+            </p>
+            <div className="comands">
+              <i class="bi bi-arrow-right-square-fill arrow"></i> <i class="bi bi-arrow-left-square-fill arrow"></i> <i class="bi bi-arrow-right-square-fill arrow"></i>
+            </div>
+            <p>
+              Na divisa, siga para o Norderste e encontre o baú contendo <span className="itenTxt">1 flag of retreat</span>, então siga pelo caminho que restou até a próxima tela. <span className="char Galvan">Galvan</span> explica que eles não vieram para a floresta para caçar, mas para exterminar formigas predadoras. Na divisa seguinte, siga para o Sul para encontrar um baú com <span className="itenTxt">1 heal powder</span>. Mais a frente, seguindo ao Sul por outra divisa, encontraremos um grupo de formigas. Encoste nelas para iniciar uma batalha. É preciso exterminar todas elas. Quando terminar o serviço, volte e siga pelo outro caminho. Na divisa seguinte, pegue o caminho Noroeste, então vire pra esquerda assim que poder pra pegar <span className="itenTxt">1 heal powder</span> no baú. Volte e siga pelo caminho do Norte para encontrar mais um grupo de formigas. Volte pelo caminho à direita e siga em frente na próxima divisa.
+            </p>
+            <p>
+              Mais à frente, os dois caçadores encontram Marcus caído. <span className="char Galvan">Galvan</span> irá retornar para Nohl com o ferido enquanto <span className="char Lang">Lang</span> ficará para encontrar <span className="char">Dein</span>. Siga pelo caminho Norte, onde há uma árvore, então siga para a direita. Siga pela estrada Noroeste para encontrar <span className="itenTxt">1 heal powder</span>. Volte e continue para a deireita para encontrar o segundo save point. Na tela seguinte, ande na direção norte e vire à direita na primeira oportunidade para encontrar <span className="itenTxt">1 leaf of stamina</span>. Se usar em <span className="char Lang">Lang</span> sua vida aumentará permanentemente. Continue pelo caminho ao norte e encontrara <span className="char">Dein</span> ferido. Ele não quer a nossa ajuda e os dois começam a discutir. É então que eles escutam um barulho.
+            </p>
+            <div className="bossFight" id='boss1'>
+              <table>
+                <tr>
+                  <th colSpan={2}>Gather Crab</th>
+                </tr>
+                <tr>
+                  <td className='info'>HP: 1000</td>
+                  <td rowSpan={'3'}>Esse chefe vai ser moleza se estiver equipado com Poison Charm e estiver level 4. Comece a batalha usando normal Arts até poder usar uma Super Art para causar maiores danos. Cure sempre que a vida ficar abaixo de 100. Depois de um certo tempo, Lang irá cortar um dos braços do monstro e, não muitos golpes depois, o outro. Agora os únicos ataque do chefe serão Barse e Venon. Mas como já temos o Poison Charm, não será um problema.</td>
+                </tr>
+                <tr>
+                  <td className='info'>Gold: 500</td>
+                </tr>
+                <tr>
+                  <td className='info'>Xp: 500</td>
+                </tr>
+                <tr>
+                  <td>Item roubado</td>
+                  <td>Antidote</td>
+                </tr>
+                <tr>
+                  <td>Itens deixados</td>
+                  <td>Mesperu Tube</td>
+                </tr>
+              </table>
+            </div>
+            <p>
+              Depois da luta <span className="char">Dein</span> e <span className="char Lang">Lang</span> voltam ao vilarejo.
             </p>
           </div>
 
