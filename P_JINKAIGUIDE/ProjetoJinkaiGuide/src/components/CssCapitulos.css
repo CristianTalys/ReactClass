@@ -216,6 +216,26 @@ h3>span {
     color: rgba(30, 255, 0, 0.568);
 }
 
+.Lang::before {
+    content: "Lang";
+}
+
+.Galvan::before {
+    content: "Galvan";
+}
+
+.Nancy::before {
+    content: "nancy";
+}
+
+.Lang::before {
+    content: "Lang";
+}
+
+.Lang::before {
+    content: "Lang";
+}
+
 .Lang {
     background-image: linear-gradient(to right, rgba(255, 0, 0, 0.37), #323232);
 }
@@ -344,4 +364,27 @@ h3>span {
 .bossFight th, .bossFight td {
     border: 1px solid white;
     padding: 7px;
+}
+
+.char::content[Lang] {
+    padding: 8px;
+}
+
+.mystic {
+    color: black;
+    background-color: white;
+    padding: 3px;
+    border-radius: 15px;
+    animation: animaMystic 5s ease-in-out infinite;
+    border: 2px solid rgb(56, 181, 223);
+}
+
+@keyframes animaMystic {
+    0% {
+        background-color: white;
+        color: black;
+    } 50% {
+        background-color: black;
+        color: white;
+    }
 }
