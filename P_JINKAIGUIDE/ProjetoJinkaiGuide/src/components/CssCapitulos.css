@@ -163,6 +163,7 @@ h3>span {
     margin-bottom: 25px;
     font-size: 1.3em;
     margin: 15px auto;
+    border-top: 15px solid #323232;
 
 }
 
@@ -190,7 +191,7 @@ h3>span {
 }
 
 .stepByStep {
-    line-height: 25px;
+    line-height: 32px;
 }
 
 .enemy {
@@ -232,20 +233,24 @@ h3>span {
     content: "Lang";
 }
 
-.Lang::before {
-    content: "Lang";
+.goldEyes::before {
+    content: "Gold Eyes";
 }
 
 .Lang {
-    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.37), #323232);
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.37), #32323200);
 }
 
 .Nancy {
-    background-image: linear-gradient(to right, rgba(0, 255, 255, 0.37), #323232);
+    background-image: linear-gradient(to right, rgba(0, 255, 255, 0.37), #32323200);
 }
 
 .Galvan {
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.37), #323232);
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.37), #32323200);
+}
+
+.goldEyes {
+    background-image: linear-gradient(to right, rgba(236, 233, 29, 0.658), #32323200);
 }
 
 .apelido {
@@ -387,4 +392,16 @@ h3>span {
         background-color: black;
         color: white;
     }
+}
+
+.aqualith::before {
+    content: "Aqualith";
+}
+
+.aqualith {
+    color: aqua;
+}
+
+.specialRock {
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(255,255,255,0.4), rgba(0,0,0,0));
 }
